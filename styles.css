@@ -8,37 +8,26 @@
 /* Body styling--centers content vertically and horizontally */
 body {
 	background-color: hsl(212, 45%, 89%);
+	font-family: 'Outfit', sans-serif;
+	min-height: 100vh;
 }
-#container {
-	width: 350px;
-	height: 520px;
-	background-color: #fff;
-	border-radius: 20px;
-	margin-top: 7rem;
-	margin-left: auto;
-	margin-right: auto;
+.qr-card {
+	max-width: 320px;
+	border-radius: 1rem;
+	overflow: hidden;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-.image-qr-code {
-	text-align: center;
-}
-
-.image-qr-code img {
-	with: 100%; 
+.qr-card img {
 	padding: 1rem;
-	border-radius: 25px;
+	border-radius: 1.5rem;
 }
-
-h2 {
-	text-align: center;
-	padding: 0 1.3rem;
-	color: #1f3251;
+.qr-card .card-title {
+	font-weight: 700;
+	font-size: 1.3rem;
 }
-
-p {
-	font-size: 15px;
-	text-align: center;
-	color:#7b879d;
-	padding: 1rem 3rem;
+.qr-card .card-text {
+	color: hsl(220, 15%, 55%);
+	font-size: 0.95rem;
 }
 
 @media screen and (max-width:480px) {
