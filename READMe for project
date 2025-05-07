@@ -1,4 +1,4 @@
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the Developing with Bootstrap--using the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 Table of Contents:
   - Link to solution
   - My Process
@@ -7,44 +7,41 @@ Table of Contents:
   - GitHub link
 
 Link to solution:
-http://127.0.0.1:5500/index.html
+http://127.0.0.1:5501/index.html
 
 My Process: 
-  I collaborated with our teacher and students for baseline HTML and CSS; as well as using Figma and Figma plug-in "GreatFrontEnd" to retrieve exacting HTML and
-  CSS code for the design and its components.
+  I collaborated with our teacher and students for how to start using Bootstrap and Refactoring the existing QR-Code-component site with bootstrap
   *Built with: 
   - Semantic HTML5 markup
   - CSS custom properties
-  - Flexbox
-  - CSS Grid
-  -Figma with plugin "GreatFront End"
-We learned to use the Figma designs for the challenge in "dev mode" in in Figma and could see exact measurements, colors, etc. That proved helpful at times--at other times the 
-code it provided was not simple. The Figma plugin "GreatFront End" made the cumbersome generated code more user-friendly.
+  - Bootstrap
+
 
 What I learned:
-  Collaboration is a more fun way to learn to code; stressing out and trying to learn or overcome problems in isolation has been a real road-blocker for me until I 
-  really leaned into helping and being helped by my teammates in the breakout rooms or in the main zoom classroom with our Per Scholas teacher, Abraham E. Taverez.
-  I learned how to utilize Figma and VS code together to closely replicate the design given. I have more learning to do and some knowledge gaps, yet I am learning that
-  you don't need to know it all you just need to ask questions and work together.
+  Bootstrap in some ways makes coding items that don't need customization very efficient; the break down came when trying to use the standard bootstrap utility classes and components
+to make a specific design--that is a custom design---going back to trying to refactor a pre-existing custom design proved challenging.
 
-Acknowledgments: Abraham E. Tavarez (Per Scholas teacher), Jermal Wynder (classmate), Bolivar Vega (Classmate), Sophia Valladares (classmate), Phillip Howard (classmate)
+Acknowledgments: Abraham E. Tavarez (Per Scholas teacher) and 2025-RTT-23 Cohort
 
 https://github.com/FrancesReagan
 -------------------------------------------------
 Reflections Questions and Answers
 
-How did using Figma designs as references affect your coding process?
-  Using Figma designs as a reference affected my coding process as in many ways it made the code more visual to me; as a new coder having the visual next to the CSS code that it 
-generated was helpful at times. Also, having the exact measurements, colors, et. al specs was most helpful for this activity as well as for the future projects as the design components
-are standardized for the project and so easier to have a consistent outcome. 
+Reflections on Mod3Lab3--DEVELOPING with BOOTSTRAP 
+Challenges When Refactoring to Bootstrap
+Understanding and implementing the Bootstrap grid system is still a challenge for me. Getting the hang of containers, rows, and columns with all their breakpoints took practice, and I'd often end up with unexpected layouts or weird nesting issues.
+Getting used to Bootstrap's naming conventions is another interesting hurdle---as in someways it was intuitive –like the padding and margin and such was easy for me—the manipulating text the typography was not as flexible as I would have liked. I kept wanting to write my custom css to avoid bootstrap—but I tried it😊.
+As stated above Bootstrap's built-in spacing or colors didn't quite match what I needed, so I'd end up with a mix of Bootstrap classes and custom CSS.
+Refactoring existing projects meant dealing with class name conflicts where my custom .container class suddenly had different behavior.
+How Bootstrap Simplified Styling
+Bootstrap's utility classes and components made styling WAY easier by:
+Letting me avoid writing repetitive CSS for common patterns 
+Ideally, if I were more adept at it-- the grid system and responsive utilities would make creating a responsive design almost automatic.
+When I'd Skip Bootstrap for Custom CSS
+I'd go with custom CSS instead of Bootstrap when:
+Working on a highly custom design where fighting against Bootstrap's opinions would take more time than writing from scratch
+Building specialized UI components that would require heavy Bootstrap customization anyway
+Working with a team that's already established a different CSS methodology (like Tailwind or a custom design system)
 
-What challenges did you encounter when aligning your code with the design specifications?  The challenges I had were the same as before,  namely, I am new to software engineering
-and so it may take me at first a longer time to understand and implement code and how to use it based on what I see in the design. Once I am more adept knowing how the visuals would
-in general translate into code the better I will be at implementing the desired outcome of the design. It is something to look forward to---the day I can freely design and understand 
-quickly and code efficiently the outcome.
 
-How can the feedback and community resources on Frontend Mentor help you improve as a developer?
-Feedback and community resources on Frontend Mentor can help me improve as developer as I can post requests for help on problem I am running up against in the code
-and others who are more advanced can suggest how to go about resolving the issue.  As, there are fun projects to do which makes me a better developer with the more practice I 
-get the better I get at web development. 
 
